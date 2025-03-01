@@ -12,8 +12,13 @@ The Meepo SDK enables developers to:
 - Seamlessly integrate with existing frameworks like LangChain and SmoLAgents
 - Leverage multiple LLM providers with unified interfaces and streaming capabilities
 
-## Core Features
+## Project Planning
 
+We follow a weekly development cycle with clearly defined tasks and deliverables:
+
+- [Week 1 (March 1-7, 2025)](weekly_tasks/week1.md) - Project Setup and Core Architecture
+
+## Core Features
 ### Python-First Development
 
 The core SDK is built in Python with:
