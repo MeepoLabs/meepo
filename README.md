@@ -16,7 +16,15 @@ The Meepo SDK enables developers to:
 
 We follow a weekly development cycle with clearly defined tasks and deliverables:
 
+- [Project Timeline Overview](weekly_tasks/project_timeline.md) - Complete 8-week development plan
 - [Week 1 (March 1-7, 2025)](weekly_tasks/week1.md) - Project Setup and Core Architecture
+- [Week 2 (March 8-14, 2025)](weekly_tasks/week2.md) - Advanced Agents and Memory Management
+- [Week 3 (March 15-21, 2025)](weekly_tasks/week3.md) - Server Layer and Cross-Language Support
+- [Week 4 (March 22-28, 2025)](weekly_tasks/week4.md) - JavaScript/TypeScript Client and Advanced Memory
+- [Week 5 (March 29 - April 4, 2025)](weekly_tasks/week5.md) - Hosted Gateway and Advanced Tool Integration
+- [Week 6 (April 5-11, 2025)](weekly_tasks/week6.md) - Additional Language Clients and Advanced Collaboration
+- [Week 7 (April 12-18, 2025)](weekly_tasks/week7.md) - Demo Applications, Analytics, and Developer Tools
+- [Week 8 (April 19-25, 2025)](weekly_tasks/week8.md) - Beta Release, Feedback, and Production Preparation
 
 ## Core Features
 ### Python-First Development
