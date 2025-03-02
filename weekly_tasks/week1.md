@@ -8,14 +8,14 @@ The first week focuses on setting up the project structure, defining core interf
 ### Project Setup
 - [x] Create requirements document
 - [x] Set up project repository
-- [ ] Set up development environment
-  - [ ] Create Python package structure
-  - [ ] Set up Poetry for dependency management
-  - [ ] Configure Ruff for linting and formatting
-  - [ ] Set up pytest for testing
-- [ ] Create initial documentation structure
-  - [ ] Set up Sphinx for API documentation
-  - [ ] Create basic usage guides
+- [x] Set up development environment
+  - [x] Create Python package structure
+  - [x] Set up Poetry for dependency management
+  - [x] Configure Ruff for linting and formatting
+  - [x] Set up pytest for testing
+- [x] Create initial documentation structure
+  - [x] Set up Sphinx for API documentation
+  - [x] Create basic usage guides
 
 ### Core Interfaces
 - [ ] Define base Agent interface

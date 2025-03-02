@@ -12,6 +12,12 @@ The Meepo SDK enables developers to:
 - Seamlessly integrate with existing frameworks like LangChain and SmoLAgents
 - Leverage multiple LLM providers with unified interfaces and streaming capabilities
 
+## Implementation Status
+
+- **Python SDK**: [pymeepo](https://github.com/meepolabs/pymeepo) - The Python implementation of the Meepo SDK (in active development)
+- **JavaScript/TypeScript SDK**: Coming soon
+- **Other Language Clients**: Planned for future development
+
 ## Project Planning
 
 We follow a weekly development cycle with clearly defined tasks and deliverables:
@@ -76,7 +82,12 @@ Connect to any LLM provider:
 
 ## Getting Started
 
-Coming soon!
+For the Python SDK:
+- Visit the [pymeepo repository](https://github.com/meepolabs/pymeepo) for the latest code
+- Read the [documentation](https://pymeepo.readthedocs.io/) for detailed guides and API reference
+- Install via pip: `pip install pymeepo`
+
+Other language implementations are coming soon!
 
 ## License
 
