@@ -17,47 +17,60 @@ Meepo is a universal platform for integrating, managing, and orchestrating AI ag
 
 ## Implementation Status
 
-- **pymeepo**: [Universal Integration SDK](https://github.com/meepolabs/pymeepo) - One SDK to integrate agents from any framework
-- **Meepo Cloud**: Coming soon - Visual builder and enterprise management platform
-- **Language SDKs**:
-  - Python Cloud SDK (In Development)
-  - TypeScript/JavaScript SDK (Planned)
-  - Go SDK (Planned)
-  - Other Languages (Coming Soon)
-- **Framework Support**:
-  - LangChain (Active Development)
-  - AutoGen (Planned)
-  - Semantic Kernel (Planned)
-  - Custom Frameworks (Documentation Available)
+### Platform MVP
+- **Visual Builder**: In Development - Create and manage agent teams visually
+- **Agent.ai Integration**: Active Development - Access the agent.ai marketplace
+- **Team Management**: In Development - Monitor and control agent teams
+- **Query System**: Planned - Natural language team creation
+
+### Future Development
+- **pymeepo**: Universal Integration SDK (Planned)
+- **Framework Support**: LangChain, AutoGen, etc. (Planned)
+- **Language SDKs**: Python, TypeScript, Go (Planned)
+- **Enterprise Features**: Advanced management and scaling (Planned)
 
 ## Getting Started
 
-### Using pymeepo (Universal Integration)
-- Visit the [pymeepo repository](https://github.com/meepolabs/pymeepo) for the latest code
-- Read the [integration docs](https://pymeepo.readthedocs.io/integration) for framework-specific guides
-- Install via pip: `pip install pymeepo`
+### Using the Platform (Coming Soon)
+- Visit [platform.meepo.ai](https://platform.meepo.ai) to create an account
+- Browse available agents from agent.ai
+- Create your first agent team
+- Monitor and manage your teams
 
-### Using Meepo Cloud
-Coming soon! Our cloud platform will offer:
-- Visual workflow builder
-- Enterprise management features
-- Scalable deployment options
-- Cross-language SDK support
+## Development Timeline
 
-## Project Planning
+### Phase 1: Core Development (Weeks 1-2)
+- **Week 1 (March 1-7, 2025)**: [pymeepo SDK and Agent.ai Integration](mvp_weekly_tasks/week1_mvp.md)
+  - Develop minimal pymeepo SDK with agent.ai support
+  - Implement AutoGen-based orchestration
+  - Create basic agent management system
+  - Set up SvelteKit project structure
 
-Weekly development updates and roadmap:
-- [Week 1 (March 1-7, 2025)](weekly_tasks/week1.md): Universal Integration Layer Development
-- Week 2: Coming soon
-- Week 3: Coming soon
+- **Week 2 (March 8-14, 2025)**: [Visual Builder and Team Management](mvp_weekly_tasks/week2_mvp.md)
+  - Create drag-and-drop interface with SvelteKit
+  - Implement team creation workflow
+  - Add query-based agent spawning
+  - Develop monitoring interface
+
+### Phase 2: Platform Development (Weeks 3-4)
+- **Week 3 (March 15-21, 2025)**: [Platform Features](mvp_weekly_tasks/week3_mvp.md)
+  - Enhance team management capabilities
+  - Add advanced monitoring features
+  - Implement user authentication
+  - Create template system
+
+- **Week 4 (March 22-28, 2025)**: [Release Preparation](mvp_weekly_tasks/week4_mvp.md)
+  - Set up Cloudflare Pages deployment
+  - Create demo applications
+  - Write documentation
+  - Launch MVP beta
 
 ## Documentation
 
 - [Requirements Document](requirements.md): Detailed platform specifications
-- [Integration Guide](https://pymeepo.readthedocs.io/integration): Framework integration with pymeepo
-- Cloud Platform Guide: Using Meepo Cloud (Coming Soon)
-- Language SDKs: Native SDK documentation (Coming Soon)
-- Examples: Sample workflows and use cases (Coming Soon)
+- Platform Guide: Using the Meepo Platform (Coming Soon)
+- Integration Guide: Framework integration with pymeepo (Planned)
+- Examples: Sample workflows and use cases (Planned)
 
 ## Contributing
 

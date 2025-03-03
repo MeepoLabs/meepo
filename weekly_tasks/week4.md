@@ -1,4 +1,4 @@
-# Week 4: Testing, Documentation, and Release (March 22-28, 2025)
+# Week 4: Testing, Documentation, and Release
 
 ## Overview
 Week 4 focuses on comprehensive testing, creating detailed documentation, developing example applications, and preparing for the initial release of pymeepo.

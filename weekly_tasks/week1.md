@@ -1,4 +1,4 @@
-# Week 1: Core Integration Layer (March 1-7, 2025)
+# Week 1: Core Integration Layer
 
 ## Overview
 The first week focuses on building the core integration layer of pymeepo, establishing the foundation for framework-agnostic agent integration.

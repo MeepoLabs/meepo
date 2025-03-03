@@ -5,14 +5,14 @@ This document outlines the 4-week development cycle for pymeepo, the universal P
 ## Development Timeline
 
 ### Phase 1: Foundation (Weeks 1-2)
-- **Week 1 (March 1-7, 2025)**: Core Integration Layer
+- **Week 1**: Core Integration Layer
   - Set up project structure and development environment
   - Define framework-agnostic interfaces
   - Implement adapter system for framework integration
   - Create common protocol definitions
   - Establish standardized messaging formats
 
-- **Week 2 (March 8-14, 2025)**: Framework Support and Memory Systems
+- **Week 2**: Framework Support and Memory Systems
   - Implement LangChain integration
   - Add AutoGen support
   - Create memory system interfaces
@@ -20,14 +20,14 @@ This document outlines the 4-week development cycle for pymeepo, the universal P
   - Implement vector store integration
 
 ### Phase 2: Features and Release (Weeks 3-4)
-- **Week 3 (March 15-21, 2025)**: Tool Integration and LLM Support
+- **Week 3**: Tool Integration and LLM Support
   - Develop universal tool protocol
   - Create framework-agnostic tool definitions
   - Implement LiteLLM integration
   - Add provider management
   - Create cost optimization features
 
-- **Week 4 (March 22-28, 2025)**: Testing, Documentation, and Release
+- **Week 4**: Testing, Documentation, and Release
   - Comprehensive testing suite
   - Framework integration guides
   - API documentation

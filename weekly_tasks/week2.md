@@ -1,4 +1,4 @@
-# Week 2: Framework Support and Memory Systems (March 8-14, 2025)
+# Week 2: Framework Support and Memory Systems
 
 ## Overview
 Week 2 focuses on implementing support for major agent frameworks and creating a unified memory system interface.

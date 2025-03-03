@@ -1,4 +1,4 @@
-# Week 3: Tool Integration and LLM Support (March 15-21, 2025)
+# Week 3: Tool Integration and LLM Support
 
 ## Overview
 Week 3 focuses on developing the universal tool protocol, implementing framework-agnostic tool definitions, and creating comprehensive LLM provider support through LiteLLM integration.
