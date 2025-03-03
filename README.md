@@ -1,98 +1,68 @@
-# Meepo SDK
+# Meepo Platform
 
-Meepo is a powerful SDK for building intelligent agents across multiple programming languages. It provides a flexible, extensible framework for creating, deploying, and orchestrating agents that can leverage various LLM providers.
+Meepo is a universal platform for integrating, managing, and orchestrating AI agents across different frameworks and providers. Our platform consists of three key components:
 
-## Overview
+1. **pymeepo**: A universal Python SDK for integrating agents from any framework (LangChain, AutoGen, etc.)
+2. **Meepo Cloud**: A managed platform for deploying, orchestrating, and monitoring agent workflows
+3. **Language SDKs**: Native SDKs in multiple languages for interacting with Meepo Cloud
 
-The Meepo SDK enables developers to:
+## Core Features
 
-- Build a robust Python SDK with comprehensive agent capabilities
-- Access the same functionality in JavaScript/TypeScript, Dart, Go, and other languages via a hosted gateway
-- Create sophisticated hierarchical agent structures for complex multi-agent scenarios
-- Seamlessly integrate with existing frameworks like LangChain and SmoLAgents
-- Leverage multiple LLM providers with unified interfaces and streaming capabilities
+- **Universal Integration (pymeepo)**: One SDK to integrate and orchestrate agents from any framework
+- **Cloud Platform**: Deploy, manage, and monitor agent workflows at scale
+- **Multi-Language Support**: Native SDKs for Python, TypeScript, Go, and more
+- **Visual Workflow Builder**: Create complex agent workflows through an intuitive drag-and-drop interface
+- **Enterprise Management**: Comprehensive tools for deployment, monitoring, and scaling
+- **Marketplace**: Share and discover pre-built workflows, tools, and integrations
 
 ## Implementation Status
 
-- **Python SDK**: [pymeepo](https://github.com/meepolabs/pymeepo) - The Python implementation of the Meepo SDK (in active development)
-- **JavaScript/TypeScript SDK**: Coming soon
-- **Other Language Clients**: Planned for future development
-
-## Project Planning
-
-We follow a weekly development cycle with clearly defined tasks and deliverables:
-
-- [Project Timeline Overview](weekly_tasks/project_timeline.md) - Complete 8-week development plan
-- [Week 1 (March 1-7, 2025)](weekly_tasks/week1.md) - Project Setup and Core Architecture
-- [Week 2 (March 8-14, 2025)](weekly_tasks/week2.md) - Advanced Agents and Memory Management
-- [Week 3 (March 15-21, 2025)](weekly_tasks/week3.md) - Server Layer and Cross-Language Support
-- [Week 4 (March 22-28, 2025)](weekly_tasks/week4.md) - JavaScript/TypeScript Client and Advanced Memory
-- [Week 5 (March 29 - April 4, 2025)](weekly_tasks/week5.md) - Hosted Gateway and Advanced Tool Integration
-- [Week 6 (April 5-11, 2025)](weekly_tasks/week6.md) - Additional Language Clients and Advanced Collaboration
-- [Week 7 (April 12-18, 2025)](weekly_tasks/week7.md) - Demo Applications, Analytics, and Developer Tools
-- [Week 8 (April 19-25, 2025)](weekly_tasks/week8.md) - Beta Release, Feedback, and Production Preparation
-
-## Core Features
-### Python-First Development
-
-The core SDK is built in Python with:
-- Async-first design with synchronous wrappers
-- Comprehensive type hints and documentation
-- Modular architecture for easy extension
-- Robust testing and examples
-
-### Multi-Language Support via Gateway
-
-Access Meepo's capabilities from any language:
-- Python SDK for direct integration
-- HTTP/WebSocket gateway for other languages
-- Thin client libraries for JavaScript/TypeScript, Dart, Go, and more
-- Consistent API experience across all languages
-
-### Hierarchical Agent Architecture
-
-Build complex multi-agent systems:
-- Supervisor agents that orchestrate and manage other agents
-- Worker agents that perform specialized tasks
-- Planning agents that break down complex problems
-- Validation agents that ensure quality and correctness
-- Observer agents that monitor and provide feedback
-
-### Interoperability
-
-Integrate with your existing tools:
-- Compatible with LangChain components and agents
-- Interoperable with SmoLAgents and other frameworks
-- Import/export capabilities for agent definitions
-- Bridge adapters for seamless integration
-
-### LLM Provider Integration
-
-Connect to any LLM provider:
-- Built-in support for OpenAI, Anthropic Claude, and Google Gemini
-- Integration with LiteLLM for expanded provider support
-- Custom provider implementations for specialized needs
-- Fallback strategies and cost optimization
-
-## Documentation
-
-- [Requirements Document](requirements.md) - Comprehensive requirements and design specifications
-- [Examples](examples/) - Example implementations (coming soon)
-- [API Reference](docs/) - API documentation (coming soon)
+- **pymeepo**: [Universal Integration SDK](https://github.com/meepolabs/pymeepo) - One SDK to integrate agents from any framework
+- **Meepo Cloud**: Coming soon - Visual builder and enterprise management platform
+- **Language SDKs**:
+  - Python Cloud SDK (In Development)
+  - TypeScript/JavaScript SDK (Planned)
+  - Go SDK (Planned)
+  - Other Languages (Coming Soon)
+- **Framework Support**:
+  - LangChain (Active Development)
+  - AutoGen (Planned)
+  - Semantic Kernel (Planned)
+  - Custom Frameworks (Documentation Available)
 
 ## Getting Started
 
-For the Python SDK:
+### Using pymeepo (Universal Integration)
 - Visit the [pymeepo repository](https://github.com/meepolabs/pymeepo) for the latest code
-- Read the [documentation](https://pymeepo.readthedocs.io/) for detailed guides and API reference
+- Read the [integration docs](https://pymeepo.readthedocs.io/integration) for framework-specific guides
 - Install via pip: `pip install pymeepo`
 
-Other language implementations are coming soon!
+### Using Meepo Cloud
+Coming soon! Our cloud platform will offer:
+- Visual workflow builder
+- Enterprise management features
+- Scalable deployment options
+- Cross-language SDK support
 
-## License
+## Project Planning
 
-This project is licensed under the [GNU General Public License v3.0 (GPLv3)](LICENSE).
+Weekly development updates and roadmap:
+- [Week 1 (March 1-7, 2025)](weekly_tasks/week1.md): Universal Integration Layer Development
+- Week 2: Coming soon
+- Week 3: Coming soon
+
+## Documentation
+
+- [Requirements Document](requirements.md): Detailed platform specifications
+- [Integration Guide](https://pymeepo.readthedocs.io/integration): Framework integration with pymeepo
+- Cloud Platform Guide: Using Meepo Cloud (Coming Soon)
+- Language SDKs: Native SDK documentation (Coming Soon)
+- Examples: Sample workflows and use cases (Coming Soon)
 
 ## Contributing
 
-Guidelines for contributing to the Meepo SDK will be provided soon.
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
