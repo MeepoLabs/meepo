@@ -2,79 +2,65 @@
 
 Meepo is a universal platform for integrating, managing, and orchestrating AI agents across different frameworks and providers. Our platform consists of three key components:
 
-1. **pymeepo**: A universal Python SDK for integrating agents from any framework (LangChain, AutoGen, etc.)
-2. **Meepo Cloud**: A managed platform for deploying, orchestrating, and monitoring agent workflows
-3. **Language SDKs**: Native SDKs in multiple languages for interacting with Meepo Cloud
+1.  **pymeepo**: A universal Python SDK for integrating agents from any framework (LangChain, AutoGen, etc.)
+2.  **Meepo Cloud**: A managed platform for deploying, orchestrating, and monitoring agent workflows
+3.  **Language SDKs**: Native SDKs in multiple languages for interacting with Meepo Cloud
 
 ## Core Features
 
-- **Universal Integration (pymeepo)**: One SDK to integrate and orchestrate agents from any framework
-- **Cloud Platform**: Deploy, manage, and monitor agent workflows at scale
-- **Multi-Language Support**: Native SDKs for Python, TypeScript, Go, and more
-- **Visual Workflow Builder**: Create complex agent workflows through an intuitive drag-and-drop interface
-- **Enterprise Management**: Comprehensive tools for deployment, monitoring, and scaling
-- **Marketplace**: Share and discover pre-built workflows, tools, and integrations
+-   **Universal Integration (pymeepo)**: One SDK to integrate and orchestrate agents from any framework
+-   **Cloud Platform**: Deploy, manage, and monitor agent workflows at scale
+-   **Multi-Language Support**: Native SDKs for Python, TypeScript, Go, and more
+-   **Visual Workflow Builder**: Create complex agent workflows through an intuitive drag-and-drop interface (Post-MVP)
+-   **Enterprise Management**: Comprehensive tools for deployment, monitoring, and scaling
+-   **Marketplace**: Share and discover pre-built workflows, tools, and integrations (Post-MVP)
 
-## Implementation Status
+## MVP v0.1.0 Status
 
-### Platform MVP
-- **Visual Builder**: In Development - Create and manage agent teams visually
-- **Agent.ai Integration**: Active Development - Access the agent.ai marketplace
-- **Team Management**: In Development - Monitor and control agent teams
-- **Query System**: Planned - Natural language team creation
+The current development focus is on delivering a robust MVP (v0.1.0) of the Meepo Platform. The goal is to provide an end-to-end "vertical slice" of functionality.
 
-### Future Development
-- **pymeepo**: Universal Integration SDK (Planned)
-- **Framework Support**: LangChain, AutoGen, etc. (Planned)
-- **Language SDKs**: Python, TypeScript, Go (Planned)
-- **Enterprise Features**: Advanced management and scaling (Planned)
+### MVP Core Capabilities:
+-   **Data Ingestion**: Load data from public sources like YouTube, web pages, PDFs, and GitHub repositories.
+-   **RAG & Query**: Ask questions over ingested data via a powerful Retrieval-Augmented Generation pipeline.
+-   **Agent Orchestration**: Build and run agents with configurable prompts, tools, and LLMs (OpenAI, Claude, Gemini).
+-   **Output Integrations**: Push agent responses to external systems like Twitter, WordPress, Slack, or generic webhooks.
+-   **Embeddable Chat UI**: Interact with agents through a real-time, embeddable chat widget.
 
-## Getting Started
+The project is currently in active development, following a detailed 22-week plan.
 
-### Using the Platform (Coming Soon)
-- Visit [platform.meepo.ai](https://platform.meepo.ai) to create an account
-- Browse available agents from agent.ai
-- Create your first agent team
-- Monitor and manage your teams
+## Development Timeline (22 Weeks)
 
-## Development Timeline
+The MVP is being developed across four distinct phases, with buffer weeks for stabilization and testing.
 
-### Phase 1: Core Development (Weeks 1-2)
-- **Week 1 (March 1-7, 2025)**: [pymeepo SDK and Agent.ai Integration](mvp_weekly_tasks/week1_mvp.md)
-  - Develop minimal pymeepo SDK with agent.ai support
-  - Implement AutoGen-based orchestration
-  - Create basic agent management system
-  - Set up SvelteKit project structure
+-   **Phase 1: Foundation & RAG (Weeks 1-4)**
+    -   Project setup, database design, and core backend/frontend scaffolding.
+    -   Building the data ingestion pipeline, vector storage, and retrieval API.
+    -   *Goal: A working RAG system.*
 
-- **Week 2 (March 8-14, 2025)**: [Visual Builder and Team Management](mvp_weekly_tasks/week2_mvp.md)
-  - Create drag-and-drop interface with SvelteKit
-  - Implement team creation workflow
-  - Add query-based agent spawning
-  - Develop monitoring interface
+-   **Phase 2: Agent System (Weeks 6-10)**
+    -   Implementing user authentication, the core agent abstraction, and multi-provider LLM integration.
+    -   Adding streaming support, secret management, and responsible AI guardrails.
+    -   *Goal: A functional, secure agent execution system.*
 
-### Phase 2: Platform Development (Weeks 3-4)
-- **Week 3 (March 15-21, 2025)**: [Platform Features](mvp_weekly_tasks/week3_mvp.md)
-  - Enhance team management capabilities
-  - Add advanced monitoring features
-  - Implement user authentication
-  - Create template system
+-   **Phase 3: Integrations & UI (Weeks 12-15)**
+    -   Developing output integrations, OAuth 2.0 flows, and a real-time chat UI.
+    -   Creating an embeddable widget and developer SDKs (Python/JS).
+    -   *Goal: A complete user-facing application with external connections.*
 
-- **Week 4 (March 22-28, 2025)**: [Release Preparation](mvp_weekly_tasks/week4_mvp.md)
-  - Set up Cloudflare Pages deployment
-  - Create demo applications
-  - Write documentation
-  - Launch MVP beta
+-   **Phase 4: Production Ready (Weeks 17-21)**
+    -   Implementing comprehensive observability (logging, metrics, tracing) and security hardening.
+    -   Automating infrastructure (Terraform) and CI/CD pipelines for production deployment.
+    -   *Goal: A stable, secure, and scalable production launch.*
+
+For a detailed breakdown, see the [**Full 22-Week Timeline**](weekly_tasks/timeline.md).
 
 ## Documentation
 
-- [Requirements Document](requirements.md): Detailed platform specifications
-- Platform Guide: Using the Meepo Platform (Coming Soon)
-- Integration Guide: Framework integration with pymeepo (Planned)
-- Examples: Sample workflows and use cases (Planned)
+-   [**MVP Requirements**](mvp_requirements.md): Detailed requirements for the v0.1.0 release.
+-   [**Full Timeline**](weekly_tasks/timeline.md): The complete 22-week development plan.
+-   [**Weekly Tasks**](./weekly_tasks/): Granular, JIRA-style tasks for each week of development.
+-   [Platform Requirements](requirements.md): The long-term vision and full platform specifications.
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
 
 ## License
 
